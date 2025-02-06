@@ -10,7 +10,7 @@ template<typename flexible>
 void give(flexible i) {
     std::cout << i;
 }
-void get(std::optional<std::string> o, flexible& i) {
+void get(flexible& i, std::optional<std::string> o) {
     if (o) {
         std::cout << *o;
     }
