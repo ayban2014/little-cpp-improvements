@@ -65,6 +65,6 @@ std::vector<double> range(l, h) {
 	std::vector<double> r;
 	for (int i = l; i <= h; i++) {
 		r.push_back(i);
-		return r;
-		}
+	}
+	return r;
 }
