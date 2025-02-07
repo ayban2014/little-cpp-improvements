@@ -62,9 +62,9 @@ flexible randchoice(const std::vector<flexible>& vec) {
     return vec[dis(gen)];
 }
 std::vector<double> range(l, h) {
-			std::vector<double> r;
-			for (int i = l; i <= h; i++) {
-						r.push_back(i);
-			return r;
-			}
+	std::vector<double> r;
+	for (int i = l; i <= h; i++) {
+		r.push_back(i);
+		return r;
+		}
 }
