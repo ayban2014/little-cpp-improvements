@@ -6,6 +6,7 @@
 #include <vector>
 #include <numeric>
 #include <string>
+#include <cmath>
 template<typename flexible>
 void give(flexible i) {
     std::cout << i;
@@ -67,4 +68,7 @@ std::vector<double> range(l, h) {
 		r.push_back(i);
 	}
 	return r;
+}
+std::vector<double> pmtd(double n1, double n2) {
+	return {n1+n2, n1-n2, n1*n2, n1/n2, pow(n1, n2)};
 }
