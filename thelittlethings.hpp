@@ -2,9 +2,13 @@
 #define THELITTLETHINGS_HPP
 #include <iostream>
 #include <optional>
+#include <random>
 #include <map>
+#include <ctime>
 #include <vector>
+#include <numeric>
 #include <string>
+#include <cmath>
 template<typename flexible>
 void give(flexible i);
 void get(std::optional<std::string> o, flexible& i);
