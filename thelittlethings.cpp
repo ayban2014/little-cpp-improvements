@@ -61,3 +61,10 @@ flexible randchoice(const std::vector<flexible>& vec) {
     std::uniform_int_distribution<> dis(0, vec.size() - 1);
     return vec[dis(gen)];
 }
+std::vector<double> range(l, h) {
+			std::vector<double> r;
+			for (int i = l; i <= h; i++) {
+						r.push_back(i);
+			return r;
+			}
+}
