@@ -40,7 +40,7 @@ void end() {
 }
 template<typename flexible>
 int randint(int i) {
-    return rand() % i;
+    return rand() % i+1;
 }
 template<typename flexible>
 V mapfind(const std::map<K, V>& map, const K& item) {
