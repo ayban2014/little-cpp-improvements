@@ -20,4 +20,5 @@ bool as_bool(flexible i);
 double sigma(const std::vector<double>& vec);
 flexible randchoice(const std::vector<flexible>& vec);
 std::vector<double> range(l, h);
+std::vector<double> pmtd(double n1, double n2);
 #endif
