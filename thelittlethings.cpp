@@ -83,6 +83,6 @@ std::vector<double> range(l, h) {
 	return r;
 }
 template<typename flexible>
-std::vector<double> pmtd(double n1, double n2) {
+std::vector<double> pmtde(double n1, double n2) {
 	return {n1+n2, n1-n2, n1*n2, n1/n2, pow(n1, n2)};
 }
