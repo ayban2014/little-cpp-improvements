@@ -43,6 +43,7 @@ int randint(int i) {
     return rand() % i+1;
 }
 template<typename flexible>
+template<typename K, typename V>
 V mapfind(const std::map<K, V>& map, const K& item) {
     auto it = map.find(item);
     if (it != map.end()) {
