@@ -35,5 +35,5 @@ flexible randchoice(const std::vector<flexible>& vec);
 template<typename flexible>
 std::vector<double> range(l, h);
 template<typename flexible>
-std::vector<double> pmtd(double n1, double n2);
+std::vector<double> pmtde(double n1, double n2);
 #endif
