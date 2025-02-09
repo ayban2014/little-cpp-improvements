@@ -9,10 +9,11 @@
 #include <numeric>
 #include <string>
 #include <cmath>
+#include <utility>
 template<typename flexible>
 void give(flexible i);
 void get(std::optional<std::string> o, flexible& i);
-void givebool(bool i);
+void givebool(std::pair<bool, int> i);
 template<typename flexible>
 std::string as_str(flexible i);
 template<typename flexible>
