@@ -7,6 +7,7 @@
 #include <numeric>
 #include <string>
 #include <cmath>
+#include <utility>
 template<typename flexible>
 void give(flexible i) {
     std::cout << i;
@@ -19,8 +20,8 @@ void get(flexible& i, std::optional<std::string> o) {
     std::cin >> i;
 }
 template<typename flexible>
-void givebool(bool i) {
-    if (i) {
+void givebool(std::pair<bool,int> i) {
+    if (i or i == 1) {
         std::cout << "true";
     } else {
         std::cout << "false";
